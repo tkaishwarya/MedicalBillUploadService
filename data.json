@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "patientName": "John Doe",
+        "patientAddress": "123 Main St, Anytown USA",
+        "hospitalName": "Anytown Hospital",
+        "dateOfService": "2023-02-15",
+        "billAmount": 100.00
+    },
+    {
+        "id": 2,
+        "patientName": "Jane Smith",
+        "patientAddress": "456 Maple Ave, Anytown USA",
+        "hospitalName": "Anytown Hospital",
+        "dateOfService": "2023-02-14",
+        "billAmount": 200.00
+    }
+]
