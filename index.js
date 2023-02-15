@@ -20,3 +20,10 @@ const port = 3000;
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+const Bill = {
+  patientName: '',
+  patientAddress: '',
+  hospitalName: '',
+  dateOfService: '',
+  billAmount: 0,
+};
