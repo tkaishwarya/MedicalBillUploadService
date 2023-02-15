@@ -31,4 +31,33 @@ Response
 Status: 200 OK
 Content-Type: application/json
 
+POST /items: creates a new medical bill
+
+Request
+POST /items
+Content-Type: application/json
+
+{
+    "patientName": "John Doe",
+    "patientAddress": "123 Main St, Anytown USA",
+    "hospitalName": "Anytown Hospital",
+    "dateOfService": "2023-02-15",
+    "billAmount": 100.00
+}
+
+Response
+
+Status: 201 Created
+Content-Type: application/json
+Location: /items/3
+
+{
+    "id": 3,
+    "patientName": "John Doe",
+    "patientAddress": "123 Main St, Anytown USA",
+    "hospitalName": "Anytown Hospital",
+    "dateOfService": "2023-02-15",
+    "billAmount": 100.00
+}
+
 
